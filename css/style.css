@@ -1,0 +1,173 @@
+/* Сперва общие правила */
+
+* {
+    box-sizing: border-box
+}
+
+/* Потом селекторы по тегам */
+
+main {
+    width: 300px;
+    margin: 0px auto;
+    font-family: Arial;
+}
+
+.single_name {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.single_author {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+p {
+    line-height: 2;
+    text-align:left;
+}
+
+/* Колонки */
+
+.row {
+    display: flex;
+}
+.col {
+    flex: auto;
+    margin: 10px;
+}
+
+
+/* Потом селекторы по классам */
+
+
+.text-input {
+    padding: 15px;
+    width: 100%;
+    border-width: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #554AF0;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 14px;
+}
+
+/* Потом специальные правила по страничкам */
+
+/* Login*/
+
+.input-login {
+    padding: 13px;
+    width: 100%;
+    border-width: 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+/* Страничка жанров и тегов */
+
+.genre-first {
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #E1F5EA;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.genre-second {
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #CBEDFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+.genre-third {
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #fbecdd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.genre-fourth {
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #EBDCF9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.tag {
+    line-height: 1.5;
+}
+
+/* Страничка популярного */
+
+.cover {
+    width: 150px;
+    height: 250px;
+}
+
+/* Страничка подписки  */
+
+.box-green {
+    padding: 20px;
+    margin: 0 0 15px 0;
+    background-color: #E1F5EA;
+    border-radius: 5px;
+}
+
+.boxes-text {
+    line-height: 1;
+    margin: 10px 0 0 0;
+}
+
+.box-purple {
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    background-color: #EBDCF9;
+    border-radius: 5px;
+}
+
+.text-large {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1;
+    margin: 0 0 0 0;
+
+}
+.button-subscription {
+    background-color: #554AF0;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 16px;
+    text-align: centre;
+    width: 70%;
+}
+
+.button-link {
+    background-color: #554AF0;
+    color: white;
+    padding-top: 13px;
+    padding-bottom:13px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-right: 10px;
+    text-decoration: none;
+}
